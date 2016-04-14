@@ -1,0 +1,16 @@
+after_script:
+  - docker images
+
+before_script:
+  - IMAGE="geth:$VERSION"
+
+env:
+  - VERSION=1.3.6
+
+language: bash
+
+script:
+  - docker build -t "$IMAGE" .
+  - docker run "$IMAGE" version | grep "Geth"
+
+services: docker
