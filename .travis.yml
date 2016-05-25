@@ -1,0 +1,10 @@
+after_script:
+  - docker images
+
+language: bash
+
+script:
+  - docker build -t "uphold/geth" .
+  - docker run "uphold/geth" version | grep "Geth"
+
+services: docker
