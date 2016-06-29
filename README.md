@@ -4,7 +4,8 @@ An Ethereum Go client/full-node implementation docker image.
 [![uphold/geth][docker-pulls-image]][docker-hub-url] [![uphold/geth][docker-stars-image]][docker-hub-url] [![uphold/geth][docker-size-image]][docker-hub-url] [![uphold/geth][docker-layers-image]][docker-hub-url]
 
 ## Supported tags
-- `1.4.5`, `latest` ([Dockerfile](/Dockerfile))
+- `1.4`, `1.4.9`, `latest` ([Dockerfile](/Dockerfile))
+- `1.4.5`
 
 ## What is geth?
 [Geth](https://github.com/ethereum/go-ethereum/wiki/geth) is the command line interface for running a full Ethereum node implemented in Go. It is the main deliverable of the [Frontier Release](https://github.com/ethereum/go-ethereum/wiki/Frontier).
