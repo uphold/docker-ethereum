@@ -5,8 +5,8 @@ MAINTAINER Pedro Branco <branco@uphold.com> (@pedrobranco)
 RUN apk add --no-cache su-exec
 
 ENV GETH_DATA=/home/ethereum/.geth \
-  GETH_VERSION=1.4.10 \
-  GETH_SHASUM="971f487f4a432cb9d95618cf87bb2d00a9acc3d9c11d152ea3110e7ab2253d87  v1.4.10.tar.gz"
+  GETH_VERSION=1.4.18 \
+  GETH_SHASUM="a584b52f432c4171ce3c00ee0742d44ec3dd78796d6f7bb8e4b82f6b3cfa707b  v1.4.18.tar.gz"
 
 RUN apk add --no-cache --virtual build-dependencies \
   gcc \
